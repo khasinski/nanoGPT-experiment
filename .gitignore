@@ -1,0 +1,6 @@
+# Model file
+data/model/ckpt.pt
+
+# Python
+*.pyc
+*.pyo

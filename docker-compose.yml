@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+  nanoGPT:
+    image: nekko/nanogpt
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
+      - ./data:/app/data
+    command: python run.py
